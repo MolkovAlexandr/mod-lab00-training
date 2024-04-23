@@ -1,7 +1,12 @@
 // Copyright 2022 UNN-IASR
 #ifndef INCLUDE_FUN_H_
 #define INCLUDE_FUN_H_
-#include <cstdint>
-int64_t power(int64_t x, uint16_t n);
+#include "fun.h"
+#include <math.h>
+
+int power(int x, int n)
+{
+	return pow(x, n);
+}
 
 #endif  // INCLUDE_FUN_H_
