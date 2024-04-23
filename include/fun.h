@@ -1,12 +1,7 @@
 // Copyright 2022 UNN-IASR
 #ifndef INCLUDE_FUN_H_
 #define INCLUDE_FUN_H_
-#include "fun.h"
-#include <math.h>
-
-int power(int x, int n)
-{
-	return pow(x, n);
-}
+#pragma once
+int power(int x, int n);
 
 #endif  // INCLUDE_FUN_H_
